@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-3xl px-6 mg:px-0 mt-3 mx-auto p-2">
-    <div class="flex items-center gap-2 px-0 py-4 md:p-4  justify-end">
+    <div class="flex items-center gap-2  py-4  justify-end">
       <button
         class="flex items-center gap-2 px-3 py-2 rounded-xl bg-gray-100 text-gray-700 hover:bg-gray-200"
       >
