@@ -11,21 +11,22 @@
     </button>
 
     <!-- Logo and Menu -->
-    <div class="flex items-center gap-2">
+    <div class="flex items-center justify-center gap-2">
       <img
-        src="/src/assets/purdiacapital.png"
+        src="/src/assets/purdiacapital.svg"
         class="w-auto h-5"
       />
     </div>
     <ul
   :class="[
-    'flex-col gap-1 mr-0 lg:mr-[250px] bg-white p-4 sm:flex-row absolute top-full left-0 sm:static sm:flex',
+    'flex-col  text-md text-black-900 gap-1 mr-0 lg:mr-[250px] justify-center items-center bg-white p-4 sm:flex-row absolute top-full left-0 sm:static sm:flex',
     mobileMenuActive ? 'flex shadow-md w-full h-[200px] pl-[30px]' : 'hidden',
     'sm:shadow-none'
   ]"
   class="sm:flex gap-3"
 >
-  <p class="block text-blue-500 font-semibold lg:inline">Dashboard</p>
+<p class="block text-blue-500 font-semibold lg:inline bg-gray-100 px-3 py-2 rounded-lg">Dashboard</p>
+
   <a href="#" class="block text-gray-600 hover:text-gray-800 lg:inline">Partner</a>
   <div class="flex items-center space-x-2 block lg:inline">
     <a href="#" class="text-gray-600 hover:text-gray-800">Desk Performance</a>
@@ -76,3 +77,4 @@ export default {
 <style scoped>
 /* Add any additional custom styles if needed */
 </style>
+
