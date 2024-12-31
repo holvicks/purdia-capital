@@ -19,7 +19,7 @@
     </div>
     <ul
   :class="[
-    'flex-col  text-md text-black-900 gap-1 mr-0 lg:mr-[250px] justify-center items-center bg-white p-4 sm:flex-row absolute top-full left-0 sm:static sm:flex',
+    'flex-col  text-md font-semibold text-black-900 gap-1 mr-0 lg:mr-[250px] justify-center items-center bg-white p-4 sm:flex-row absolute top-full left-0 sm:static sm:flex',
     mobileMenuActive ? 'flex shadow-md w-full h-[200px] pl-[30px]' : 'hidden',
     'sm:shadow-none'
   ]"
