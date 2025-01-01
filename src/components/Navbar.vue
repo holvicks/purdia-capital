@@ -10,7 +10,6 @@
       <span class="block w-full h-[2px] bg-white"></span>
     </button>
 
-    <!-- Logo and Menu -->
     <div class="flex items-center justify-center gap-2">
       <img
         src="/src/assets/purdiacapital.svg"
@@ -33,9 +32,7 @@
     <span class="bg-red-100 text-red-500 text-xs font-medium px-2 py-0.5 rounded">Beta</span>
   </div>
 </ul>
-    
-
-    <!-- Profile and Notifications -->
+    <!-- Profile -->
     <div class="flex items-center gap-3">
       <svg class="h-6 w-6 text-white" fill="none"
         viewBox="0 0 24 24"
@@ -49,8 +46,7 @@
           d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0"
         />
       </svg>
-
-      <!-- Profile Dropdown -->
+      
       <div class="relative flex gap-3 items-center justify-center">
         <span class="text-sm">Jonas</span>
           <img class="w-10 h-10 rounded-full ring-white ring-2 ring-offset-2 ring-offset-gray-700"
@@ -66,7 +62,7 @@ import { ref } from "vue";
 export default {
   name: "Navbarnew",
   setup() {
-    const mobileMenuActive = ref(false); // Default to closed menu
+    const mobileMenuActive = ref(false);
     return {
       mobileMenuActive,
     };
@@ -75,6 +71,5 @@ export default {
 </script>
 
 <style scoped>
-/* Add any additional custom styles if needed */
 </style>
 
